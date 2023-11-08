@@ -1,0 +1,73 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/360_F_343048617_UOxqdlxrHPfsHqv18yk6ntyl7Enecsgw.jpg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    background-image: url(images/Soothing-nature-backgrounds-2.jpg.webp);
+    background-size: cover;
+    width:500px;
+    height:300px;
+    border-radius: 20px;
+    text-align: center;
+   
+}
+#timmer{
+    margin-top: 30px;
+    color: rgb(255, 116, 29);
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 0 10px 10px rgb(213, 203, 203);
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.fa-solid {
+    background-color: rgb(255, 128, 0);
+    box-shadow: 0 10px 20px rgb(225, 133, 94);
+    border-radius: 50%;
+    border: 5px white;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    cursor: pointer;
+}
+.fa-solid:hover{
+    box-shadow: 0 10px 20px rgb(233, 221, 217);
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%; 
+    }
+
+    #timmer {
+        font-size: 35px; 
+        margin-top: 40px; 
+    }
+
+    .fa-solid {
+        width: 40px; 
+        height: 40px;
+        margin: 10px; 
+        margin-top: 20px;
+    }
+}
